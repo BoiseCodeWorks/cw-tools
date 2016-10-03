@@ -1,0 +1,34 @@
+@import './variables'
+
+p
+  font-size: 18px
+
+.cw-heading
+  .title
+    color: #333333;
+    line-height: 45px;
+    font-size: 26px;
+    font-family: 'Raleway';
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize
+  .cw-heading-spacer
+    height: 1px;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    position: relative
+    text-decoration:
+    &::before
+      content: "";
+      left: 50%;
+      top: -4px;
+      position: absolute;
+      margin-left: -15px;
+      width: 30px;
+      height: 5px;
+      background-color: #337ab7;
+.btn-lg
+  border-radius: 4px

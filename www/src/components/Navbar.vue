@@ -6,7 +6,7 @@ div.navbar-component
       span.codeworks CodeWorks
       span.city Boise
     h1.red Hey you guys
-    h3.blue should be blue 
+    h3.blue should be blue
   ul
     li.dropdown
       a.dropdown-toggle(href='javascript:void(0)', data-toggle='dropdown') Courses
@@ -36,7 +36,7 @@ div.navbar-component
 
 <script>
 export default{
-  data() { 
+  data() {
     return {
 
     }
