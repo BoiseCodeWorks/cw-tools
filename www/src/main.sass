@@ -29,6 +29,13 @@ p
       margin-left: -15px;
       width: 30px;
       height: 5px;
-      background-color: #337ab7;
+      background-color: $primary-light;
+  &.alt
+    .cw-heading-spacer
+      background-color: $lightclouds;
+      &::before
+        background-color: $darkclouds;
+    .title
+      color: $lightclouds
 .btn-lg
   border-radius: 4px

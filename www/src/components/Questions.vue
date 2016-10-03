@@ -35,7 +35,7 @@
   .cw-card
     background-color: #e5e5e5
     padding: 10px
-    border-radius: 8px
+    // border-radius: 8px
     .title
       font-size: 16px
       font-weight: bold

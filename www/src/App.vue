@@ -12,6 +12,9 @@
       </div>
     </section>
     <section class="container">
+      <countdown class="row"></countdown>
+    </section>
+    <section class="container">
       <questions class="row"></questions>
     </section>
   </div>
@@ -22,13 +25,15 @@ import Navbar from './components/Navbar'
 import EmployerList from './components/EmployerList'
 import Questions from './components/Questions'
 import Testimonials from './components/Testimonials'
+import Countdown from './components/Countdown'
 
 export default {
   components: {
     Navbar,
     EmployerList,
     Questions,
-    Testimonials
+    Testimonials,
+    Countdown
   }
 }
 </script>
