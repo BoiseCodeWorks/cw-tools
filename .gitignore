@@ -1,5 +1,4 @@
 .DS_Store
-www/node_modules/
-www/dist/
-www/npm-debug.log
-
+node_modules/
+dist/
+npm-debug.log
